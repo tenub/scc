@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+    		<!-- header content start -->
+			<!--#include virtual="assets/templates/header.html" -->
+			<!-- header content end -->
+			<div class="container">
+	    		<div id="content">
+	    			<div id="sidebar">
+	    				<div class="container">
+							<!-- sidebar content start -->
+							<!--#include virtual="assets/templates/sidebar-index.html" -->
+							<!-- sidebar content end -->
+	    					<div class="spacer"></div>
+	    				</div>
+	    			</div>
+	    			<div id="main">
+	    				<div class="container">
+	    					asdasdkasd
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<!-- footer content start -->
+				<!--#include virtual="assets/templates/footer.html" -->
+				<!-- footer content end -->
+	</body>
+</html>

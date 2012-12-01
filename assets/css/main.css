@@ -1,0 +1,279 @@
+/* Main Styles */
+@font-face {
+	font-family: 'SenseMediumRegular';
+    src: url('../fonts/Sense_Medium-webfont.eot');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'SenseMediumRegular';
+    src: url('../fonts/Sense_Medium-webfont?#iefix') format('embedded-opentype'),
+         url('../fonts/Sense_Medium-webfont.woff') format('woff'),
+         url('../fonts/Sense_Medium-webfont.ttf') format('truetype'),
+         url('../fonts/Sense_Medium-webfont.svg#SenseMediumRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	background: #ccc;
+	font: 16px helvetica, arial, sans-serif;
+	color: #333;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+	outline: 0;
+	font-size: 16px;
+}
+a:hover {
+	color: #fff;
+}
+h1, h2, h3, h4 {
+	font-family: 'SenseMediumRegular', helvetica, arial, sans-serif;
+}
+/* Header Styles */
+header hr {
+	position: absolute;
+	top: 58px;
+	background: #fc0;
+	color: #fc0;
+	width: 100%;
+	height: 1px;
+	border: 0;
+}
+header {
+	position: fixed;
+	height: 100px;
+	background: #00c;
+	width: 960px;
+	margin: 0 auto;
+	left: 0;
+ 	right: 0;
+}
+header div.header {
+	position: relative;
+	height: 100px;
+	background: #00c;
+	width: 960px;
+	margin: 0 auto;
+}
+#logo {
+	position: absolute;
+	top: 10px;
+	left: 48px;
+	width: 80px;
+	height: 80px;
+	z-index: 2;
+}
+#logo a {
+	display: block;
+	height: 120px;
+}
+#title {
+	position: absolute;
+	top: 25px;
+	left: 150px;
+	z-index: 2;
+	font: bold 36px 'SenseMediumRegular';
+	color: #fff;
+	line-height: 1em;
+}
+#topLinks {
+	position: absolute;
+	top: 35px;
+	right: 40px;
+	font: 12px 'SenseMediumRegular';
+	color: #fff;
+	letter-spacing: 1px;
+}
+#topLinks ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#topLinks ul li {
+	float: left;
+	margin: 0 15px;
+	line-height: 17px;
+}
+#topLinks span {
+	font-size: 15px;
+}
+#topLinks ul li a {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font: 12px 'SenseMediumRegular';
+}
+#topLinks ul li a:hover {
+	color: #fc0;
+}
+#headerLinks {
+	position: absolute;
+	width: 100%;
+	margin: 66px 0 0 0;
+	font: 17px 'SenseMediumRegular', helvetica, arial, sans-serif;
+	color: #fff;
+}
+#headerLinks > ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#headerLinks > ul li {
+	float: left;
+	padding: 0 10px;
+}
+#headerLinks > ul > li > a {
+	color: #fff;
+	font-size: 17px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+#headerLinks > ul#last {
+	float: right;
+	margin: 0 44px 0 0;
+	line-height: 34px;
+}
+#headerLinks > ul#last > li {
+	color: #fff;
+}
+#headerLinks > ul#last a:hover {
+	color: #fc0;
+}
+#headerLinks > ul#last img {
+	vertical-align: middle;
+}
+#mainMenu > li {
+	background: transparent url('../img/bullet.png') no-repeat 0 50%;
+	padding: 0 15px !important;
+	overflow: visible;
+	/* width: 115px; */
+	text-align: center;
+	line-height: 34px;
+}
+#mainMenu > li:hover {
+	border-bottom: 6px #00c solid;
+}
+#mainMenu > li:hover > a {
+	color: #fc0;
+}
+#mainMenu > li:hover .menu {
+	display: block;
+	/* width: 405px; */
+	height: 250px;
+}
+#mainMenu > li:first-child {
+	padding: 0 15px 0 0;
+	background: transparent;
+}
+#mainMenu {
+	float: left !important;
+	margin: 0 0 0 140px !important;
+}
+#mainMenu .menu {
+	position: absolute;
+	left: 155px;
+	display: none;
+	margin: 6px 0 0 -15px;
+	padding: 15px 0;
+	background: #00c;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-left-radius: 5px;
+	-moz-box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+	z-index: 100;
+	line-height: 1em;
+}
+#mainMenu .menu a {
+	color: #fff;
+	font: 13px beval, helvetica, arial, sans-serif;
+}
+#mainMenu .menu a:hover {
+	color: #fc0;
+}
+#mainMenu .menu > li {
+	width: 119px;
+	height: 100%;
+	border-right: 1px solid #666;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+#mainMenu .menu > li:last-child {
+	border: none;
+}
+#mainMenu .menu > li.last-child {
+	border: none;
+}
+#mainMenu .menu > li ul {
+	text-align: left;
+}
+#mainMenu .subMenu li {
+	float: none;
+	margin: 0.75em 0 0 0;
+}
+#mainMenu .subMenu li.subMenuHead {
+	float: none;
+	margin: 0.75em 0 0 0;
+	padding-top: 5px;
+	font-size: 13px;
+	color: #fff;
+}
+body > .container {
+	width: 100%;
+}
+#content {
+	background: #fff;
+	width: 960px;
+	overflow: hidden;
+	padding: 100px 0 40px 0;
+	font-family: helvetica, arial, sans-serif;
+	margin: 0 auto;
+}
+/* Footer Styles */
+footer {
+	width: 960px;
+	background: #00c;
+	text-align: center;
+	margin: 0 auto;
+}
+footer .bottom {
+	position: relative;
+	top: 100%;
+	height: 30px;
+	padding: 0 30px;
+	font: bold 11px 'Trebuchet MS', helvetica, arial, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	list-style: none;
+	color: #fff;
+}
+footer .bottom a {
+	color: #fff;
+	text-decoration: none;
+}
+footer .bottom a:hover {
+	color: #fc0;
+}
+footer .bottom li {
+	display: inline;
+	padding: 0 20px;
+	font-size: 11px;
+}
+footer .bottom li a {
+	font-size: 11px;
+}
+footer .bottom ul {
+	float: left;
+	line-height: 30px;
+}
+footer .bottom ul #copy {
+	float: right;
+	position: absolute;
+	right: 0;
+	padding: 0 55px 0 10px;
+	min-width: 80px;
+}
