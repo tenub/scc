@@ -13,8 +13,17 @@
 	    				</div>
 	    			</div>
 	    			<div id="main">
+	    				<div id="separator"></div>
+	    				<div class="clear"></div>
+	    				<img src="assets/img/img_main.jpg" alt="Pile of Stamps" />
 	    				<div class="container">
-	    					asdasdkasd
+	    					<h1>SCC</h1>
+							<h2>Stamp collecting with a Scandinavian twist!</h2>
+							<div class="spacer10"></div>
+							<p>Welcome to the home page of the Scandinavian Collectors Club, a non-profit philatelic society devoted to research and education. Our membership spans worldwide, and includes individuals and societies devoted to collecting the stamps and postal history of Scandinavia.</p>
+							<p>Our diverse membership reflects an interest in the countries of Åland, Aunus, the Danish West Indies, Denmark, the Faroes, Finland, Greenland, Iceland, Karelia, North Ingermanland, Norway, Slesvig, and Sweden. We are affiliated with with the American Philatelic Society, the Royal Philatelic Society of Canada, the Scandinavian Philatelic Foundation, and Norsk Filatelistforbund.</p>
+							<p>Our members exhibit at philatelic exhibitions around the globe, including the annual Nordia exhibitions in Scandinavia, and the many World Series of Philately shows sponsored by the APS. Many of our members serve as qualified judges and organizers of major stamp shows.</p>
+							<a class="upperLink">Find Out More &raquo;</a>
 	    				</div>
 	    			</div>
 	    		</div>

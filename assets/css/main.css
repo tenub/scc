@@ -43,6 +43,7 @@ header hr {
 }
 header {
 	position: fixed;
+	z-index: 2;
 	height: 100px;
 	background: #00c;
 	width: 960px;
@@ -56,6 +57,13 @@ header div.header {
 	background: #00c;
 	width: 960px;
 	margin: 0 auto;
+}
+.clear {
+	clear: both;
+	line-height: 0;
+	height: 0;
+	margin: 0;
+	padding: 0;
 }
 #logo {
 	position: absolute;
@@ -95,9 +103,6 @@ header div.header {
 	float: left;
 	margin: 0 15px;
 	line-height: 17px;
-}
-#topLinks span {
-	font-size: 15px;
 }
 #topLinks ul li a {
 	color: #fff;
@@ -148,7 +153,6 @@ header div.header {
 	background: transparent url('../img/bullet.png') no-repeat 0 50%;
 	padding: 0 15px !important;
 	overflow: visible;
-	/* width: 115px; */
 	text-align: center;
 	line-height: 34px;
 }
@@ -160,8 +164,7 @@ header div.header {
 }
 #mainMenu > li:hover .menu {
 	display: block;
-	/* width: 405px; */
-	height: 250px;
+	height: 180px;
 }
 #mainMenu > li:first-child {
 	padding: 0 15px 0 0;
@@ -176,51 +179,44 @@ header div.header {
 	left: 155px;
 	display: none;
 	margin: 6px 0 0 -15px;
-	padding: 15px 0;
+	padding: 5px 0 20px 0;
 	background: #00c;
-	-moz-border-radius-bottomright: 5px;
-	border-bottom-right-radius: 5px;
-	-moz-border-radius-bottomleft: 5px;
-	border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-left-radius: 10px;
 	-moz-box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
 	-webkit-box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
 	box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
-	z-index: 100;
+	z-index: 1000;
 	line-height: 1em;
 }
 #mainMenu .menu a {
 	color: #fff;
-	font: 13px beval, helvetica, arial, sans-serif;
+	font: 15px 'SenseMediumRegular', helvetica, arial, sans-serif;
+	list-style: disc;
 }
 #mainMenu .menu a:hover {
 	color: #fc0;
 }
 #mainMenu .menu > li {
-	width: 119px;
+	width: 161px;
 	height: 100%;
-	border-right: 1px solid #666;
-	padding: 0 10px;
-	margin: 0 auto;
+	padding: 0;
+	margin-left: 35px;
 }
 #mainMenu .menu > li:last-child {
-	border: none;
-}
-#mainMenu .menu > li.last-child {
-	border: none;
+	width: 163px;
 }
 #mainMenu .menu > li ul {
 	text-align: left;
+	list-style: disc;
 }
 #mainMenu .subMenu li {
 	float: none;
 	margin: 0.75em 0 0 0;
-}
-#mainMenu .subMenu li.subMenuHead {
-	float: none;
-	margin: 0.75em 0 0 0;
-	padding-top: 5px;
-	font-size: 13px;
-	color: #fff;
+	padding: 0;
+	text-indent: -5px;
 }
 body > .container {
 	width: 100%;
@@ -229,9 +225,103 @@ body > .container {
 	background: #fff;
 	width: 960px;
 	overflow: hidden;
-	padding: 100px 0 40px 0;
+	padding: 100px 0 0 0;
 	font-family: helvetica, arial, sans-serif;
 	margin: 0 auto;
+}
+#content p {
+	color: #333;
+	font-size: 16px;
+	font-family: 'Trebuchet MS', helvetica, arial, sans-serif;
+	padding: 5px 0;
+}
+#content h1 {
+	color: #d51d24;
+	font-size: 36px;
+	font-family: 'Trebuchet MS', helvetica, arial, sans-serif;
+}
+#content h2 {
+	font: 20px 'Trebuchet MS', helvetica, arial, sans-serif;
+	color: #333;
+}
+#content h3 {
+	font: 18px 'Trebuchet MS', helvetica, arial, sans-serif;
+	color: #333;
+	line-height: 30px;
+}
+#main {
+	position: relative;
+	float: left;
+	width: 640px;
+	padding: 0 0 0 14px;
+	margin: 0 0 0 0;
+}
+#main .container {
+	margin: 0 50px 40px 50px;
+}
+#main .container div.spacer10 {
+	clear: both;
+    margin: 0;
+	padding: 0;
+    height: 10px;
+    width: 100%;
+}
+#main .upperLink {
+	color: #eb2200;
+	font: bold 12px 'Trebuchet MS', helvetica, arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 10px 0 0 0;
+	display: block;
+}
+#separator {
+	position: absolute;
+	left: 0;
+	background: url('../img/sidebar_shadow.png') 0 0 repeat-y;
+	width: 14px;
+	height: 100%;
+}
+/* Sidebar Styles */
+#sidebar {
+	width: 306px;
+	float: left;
+	padding: 24px 0 0 0;
+}
+#sidebar .container {
+	margin: 0 50px;
+}
+#content a {
+	color: #333;
+}
+#content a:hover {
+	color: #000;
+	cursor: pointer;
+}
+#sidebar h1 {
+	color: #eb2200;
+	font-size: 24px;
+	font-family: 'Trebuchet MS', helvetica, arial, sans-serif;
+}
+#sidebar h2 {
+	font: bold 15px 'Trebuchet MS', helvetica, arial, sans-serif;
+	color: #333;
+	padding: 5px 0 15px 0;
+}
+#sidebar h3 {
+	font: 18px 'Trebuchet MS', helvetica, arial, sans-serif;
+	color: #333;
+	line-height: 30px;
+}
+#sidebar #posthorn {
+	border-bottom: 1px dashed #eb2200;
+	padding: 20px 0 25px 0;
+}
+#sidebar #newsBrief {
+	margin: 20px 0 0 0;
+}
+#sidebar #newsBrief ul li {
+	padding: 10px 8px;
+	border-bottom: 1px solid #d5d0cd;
 }
 /* Footer Styles */
 footer {
