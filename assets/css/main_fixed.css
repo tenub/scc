@@ -33,22 +33,12 @@ h1, h2, h3, h4 {
 }
 body > .container {
 	position: relative;
+	width: 960px;
 	max-width: 1280px;
 	min-width: 900px;
 	margin: 0 auto;
-	overflow: hidden;
 }
 /* Header Styles */
-header {
-	position: relative;
-	z-index: 2;
-	height: 100px;
-	background: #00c;
-	width: 100%;
-	margin: 0 auto;
-	left: 0;
- 	right: 0;
-}
 header hr {
 	position: absolute;
 	top: 58px;
@@ -58,11 +48,22 @@ header hr {
 	height: 1px;
 	border: 0;
 }
+header {
+	position: fixed;
+	z-index: 2;
+	height: 100px;
+	background: #00c;
+	width: 960px;
+	margin: 0 auto;
+	left: 0;
+ 	right: 0;
+}
 header div.header {
 	position: relative;
 	height: 100px;
 	background: #00c;
-	width: 100%;
+	width: 960px;
+	margin: 0 auto;
 }
 .clear {
 	clear: both;
@@ -226,9 +227,9 @@ header div.header {
 }
 #content {
 	background: #fff;
-	width: 100%;
+	width: 960px;
 	overflow: hidden;
-	padding: 0 0 0 0;
+	padding: 100px 0 0 0;
 	font-family: helvetica, arial, sans-serif;
 }
 #content p {
@@ -254,15 +255,12 @@ header div.header {
 #main {
 	position: relative;
 	float: left;
-	width: 100%;
+	width: 640px;
 	padding: 0 0 0 14px;
-	margin: 0 -320px 0 0;
+	margin: 0 0 0 0;
 }
 #main .container {
-	margin: 0 320px 40px 0;
-}
-#main .body {
-	margin: 0 50px;
+	margin: 0 50px 40px 50px;
 }
 #main .container div.spacer10 {
 	clear: both;
@@ -270,9 +268,6 @@ header div.header {
 	padding: 0;
     height: 10px;
     width: 100%;
-}
-#main .hero {
-	width: 100%;
 }
 #main .upperLink {
 	color: #eb2200;
@@ -334,7 +329,7 @@ header div.header {
 }
 /* Footer Styles */
 footer {
-	width: 100%;
+	width: 960px;
 	background: #00c;
 	text-align: center;
 	margin: 0 auto;
