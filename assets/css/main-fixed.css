@@ -227,7 +227,7 @@ header div.header {
 }
 #content {
 	background: #fff;
-	width: 960px;
+	width: 100%;
 	overflow: hidden;
 	padding: 100px 0 0 0;
 	font-family: helvetica, arial, sans-serif;
@@ -255,12 +255,15 @@ header div.header {
 #main {
 	position: relative;
 	float: left;
-	width: 640px;
+	width: 100%;
 	padding: 0 0 0 14px;
-	margin: 0 0 0 0;
+	margin: 0 -320px 0 0;
 }
 #main .container {
-	margin: 0 50px 40px 50px;
+	margin: 0 320px 40px 0;
+}
+#main .body {
+	margin: 0 50px;
 }
 #main .container div.spacer10 {
 	clear: both;
@@ -268,6 +271,9 @@ header div.header {
 	padding: 0;
     height: 10px;
     width: 100%;
+}
+#main .hero {
+	width: 100%;
 }
 #main .upperLink {
 	color: #eb2200;
