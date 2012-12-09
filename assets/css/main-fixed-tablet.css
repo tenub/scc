@@ -16,15 +16,14 @@
 }
 body {
 	background: #ccc;
-	font: 16px 'Trebuchet MS', helvetica, arial, sans-serif
+	font: 14px helvetica, arial, sans-serif;
 	color: #333;
-	line-height: 1.5em;
 }
 a {
 	color: #fff;
 	text-decoration: none;
 	outline: 0;
-	font: 16px 'Trebuchet MS', helvetica, arial, sans-serif
+	font-size: 14px;
 }
 a:hover {
 	color: #fff;
@@ -34,25 +33,15 @@ h1, h2, h3, h4 {
 }
 body > .container {
 	position: relative;
-	max-width: 1025px;
-	min-width: 900px;
+	width: 768px;
+	max-width: 1280px;
+	min-width: 768px;
 	margin: 0 auto;
-	overflow: hidden;
 	border-left: 1px solid #aaa;
 	border-right: 1px solid #aaa;
 	box-shadow: 0px 0px 25px #aaa;
 }
 /* Header Styles */
-header {
-	position: relative;
-	z-index: 2;
-	height: 100px;
-	background: #00c;
-	width: 100%;
-	margin: 0 auto;
-	left: 0;
- 	right: 0;
-}
 header hr {
 	position: absolute;
 	top: 58px;
@@ -62,11 +51,24 @@ header hr {
 	height: 1px;
 	border: 0;
 }
+header {
+	position: fixed;
+	z-index: 2;
+	height: 100px;
+	background: #00c;
+	width: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+	left: 0;
+ 	right: 0;
+ 	box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
 header div.header {
 	position: relative;
 	height: 100px;
 	background: #00c;
-	width: 100%;
+	width: 768px;
+	margin: 0 auto;
 }
 .clear {
 	clear: both;
@@ -89,17 +91,17 @@ header div.header {
 }
 #title {
 	position: absolute;
-	top: 25px;
+	top: 32px;
 	left: 150px;
 	z-index: 2;
-	font: 36px 'SenseMediumRegular';
+	font: 28px 'SenseMediumRegular';
 	color: #fff;
 	line-height: 1em;
 }
 #topLinks {
 	position: absolute;
 	top: 35px;
-	right: 40px;
+	right: 45px;
 	font: 12px 'SenseMediumRegular';
 	color: #fff;
 	letter-spacing: 1px;
@@ -111,7 +113,7 @@ header div.header {
 }
 #topLinks ul li {
 	float: left;
-	margin: 0 15px;
+	margin: 0 10px;
 	line-height: 17px;
 }
 #topLinks ul li a {
@@ -127,6 +129,7 @@ header div.header {
 	position: absolute;
 	width: 100%;
 	margin: 66px 0 0 0;
+	font: 16px 'SenseMediumRegular', helvetica, arial, sans-serif;
 	color: #fff;
 }
 #headerLinks > ul {
@@ -140,7 +143,7 @@ header div.header {
 }
 #headerLinks > ul > li > a {
 	color: #fff;
-	font: 17px 'SenseMediumRegular', helvetica, arial, sans-serif;
+	font-size: 16px;
 	text-decoration: none;
 	white-space: nowrap;
 }
@@ -181,7 +184,7 @@ header div.header {
 }
 #mainMenu {
 	float: left !important;
-	margin: 0 0 0 135px !important;
+	margin: 0 0 0 140px !important;
 }
 #mainMenu .menu {
 	position: absolute;
@@ -231,28 +234,27 @@ header div.header {
 	background: #fff;
 	width: 100%;
 	overflow: hidden;
-	padding: 0 0 0 0;
+	padding: 100px 0 0 0;
 	font-family: helvetica, arial, sans-serif;
 }
 #content p {
 	color: #333;
-	font-size: 16px;
+	font-size: 14px;
 	font-family: 'Trebuchet MS', helvetica, arial, sans-serif;
 	padding: 5px 0;
+	line-height: 1.5em;
 }
 #content h1 {
 	color: #d51d24;
-	font-size: 36px;
+	font-size: 30px;
 	font-family: 'Trebuchet MS', helvetica, arial, sans-serif;
-	line-height: 1em;
 }
 #content h2 {
-	font: 20px 'Trebuchet MS', helvetica, arial, sans-serif;
+	font: 18px 'Trebuchet MS', helvetica, arial, sans-serif;
 	color: #333;
-	line-height: 1.5em;
 }
 #content h3 {
-	font: 18px 'Trebuchet MS', helvetica, arial, sans-serif;
+	font: 16px 'Trebuchet MS', helvetica, arial, sans-serif;
 	color: #333;
 	line-height: 30px;
 }
@@ -281,7 +283,7 @@ header div.header {
 }
 #main .upperLink {
 	color: #eb2200;
-	font: bold 12px 'Trebuchet MS', helvetica, arial, sans-serif;
+	font: bold 11px 'Trebuchet MS', helvetica, arial, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	padding: 10px 0 0 0;
@@ -317,7 +319,7 @@ header div.header {
 	font-family: 'Trebuchet MS', helvetica, arial, sans-serif;
 }
 #sidebar h2 {
-	font: 15px 'Trebuchet MS', helvetica, arial, sans-serif;
+	font: 14px 'Trebuchet MS', helvetica, arial, sans-serif;
 	color: #333;
 	padding: 5px 0 15px 0;
 }
@@ -336,10 +338,11 @@ header div.header {
 #sidebar #newsBrief ul li {
 	padding: 10px 0;
 	border-bottom: 1px solid #d5d0cd;
+	font: 14px 'Trebuchet MS', helvetica, arial, sans-serif;
 }
 /* Footer Styles */
 footer {
-	width: 100%;
+	width: 768px;
 	background: #00c;
 	text-align: center;
 	margin: 0 auto;
@@ -349,7 +352,7 @@ footer .bottom {
 	top: 100%;
 	height: 30px;
 	padding: 0 30px;
-	font: bold 11px 'Trebuchet MS', helvetica, arial, sans-serif;
+	font: bold 10px 'Trebuchet MS', helvetica, arial, sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	list-style: none;
@@ -364,11 +367,11 @@ footer .bottom a:hover {
 }
 footer .bottom li {
 	display: inline;
-	padding: 0 20px;
-	font-size: 11px;
+	padding: 0 10px;
+	font-size: 10px;
 }
 footer .bottom li a {
-	font-size: 11px;
+	font-size: 10px;
 }
 footer .bottom ul {
 	float: left;
