@@ -119,8 +119,12 @@ header div.header {
 	text-transform: uppercase;
 	text-decoration: none;
 	font: 12px 'SenseMediumRegular';
+	opacity:0.6;
+	filter:alpha(opacity=60);
 }
 #topLinks ul li a:hover {
+	opacity:1.0;
+	filter:alpha(opacity=100);
 	color: #fc0;
 }
 #headerLinks {
