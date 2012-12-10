@@ -1,16 +1,16 @@
 /* Main Styles */
 @font-face {
 	font-family: 'SenseMediumRegular';
-    src: url('../fonts/Sense_Medium-webfont.eot');
+    src: url('../fonts/Sense_Reg-webfont.eot');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'SenseMediumRegular';
-    src: url('../fonts/Sense_Medium-webfont?#iefix') format('embedded-opentype'),
-         url('../fonts/Sense_Medium-webfont.woff') format('woff'),
-         url('../fonts/Sense_Medium-webfont.ttf') format('truetype'),
-         url('../fonts/Sense_Medium-webfont.svg#SenseMediumRegular') format('svg');
+    src: url('../fonts/Sense_Reg-webfont?#iefix') format('embedded-opentype'),
+         url('../fonts/Sense_Reg-webfont.woff') format('woff'),
+         url('../fonts/Sense_Reg-webfont.ttf') format('truetype'),
+         url('../fonts/Sense_Reg-webfont.svg#SenseMediumRegular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -113,7 +113,7 @@ header div.header {
 #topLinks ul li {
 	float: left;
 	margin: 0 10px;
-	line-height: 17px;
+	line-height: 20px;
 }
 #topLinks ul li a {
 	color: #fff;
@@ -200,9 +200,6 @@ header div.header {
 	border-bottom-right-radius: 10px;
 	-moz-border-radius-bottomleft: 10px;
 	border-bottom-left-radius: 10px;
-	-moz-box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
-	-webkit-box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
-	box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
 	z-index: 1000;
 	line-height: 1em;
 }
@@ -221,7 +218,7 @@ header div.header {
 	margin-left: 35px;
 }
 #mainMenu .menu > li:last-child {
-	width: 163px;
+	width: 162px;
 }
 #mainMenu .menu > li ul {
 	text-align: left;
@@ -247,19 +244,20 @@ header div.header {
 	line-height: 1.5em;
 }
 #content h1 {
-	color: #d51d24;
+	color: #eb2200;
 	font-size: 30px;
-	font-family: 'Trebuchet MS', helvetica, arial, sans-serif;
+	font-family: 'Sense_Med', helvetica, arial, sans-serif;
+	line-height: 1.0em;
 }
 #content h2 {
-	font: 18px 'Trebuchet MS', helvetica, arial, sans-serif;
+	font: 18px 'Sense_Med', helvetica, arial, sans-serif;
 	color: #333;
 	line-height: 1.5em;
 }
 #content h3 {
 	font: 16px 'Trebuchet MS', helvetica, arial, sans-serif;
 	color: #333;
-	line-height: 1.5em;
+	line-height: 30px;
 }
 #main {
 	position: relative;
@@ -319,7 +317,7 @@ header div.header {
 #sidebar h1 {
 	color: #eb2200;
 	font-size: 20px;
-	font-family: 'Trebuchet MS', helvetica, arial, sans-serif;
+	font-family: 'Sense_Med', helvetica, arial, sans-serif;
 }
 #sidebar h2 {
 	font: 14px 'Trebuchet MS', helvetica, arial, sans-serif;
