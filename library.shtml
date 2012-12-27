@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+		<div class="container">
+    		<!-- header content start -->
+			<!--#include virtual="assets/templates/header-fixed.html" -->
+			<!-- header content end -->
+	    		<div id="content">
+	    			<div id="sidebar">
+	    				<div class="container">
+							<!-- sidebar content start -->
+							<!--#include virtual="assets/templates/sidebar-index.html" -->
+							<!-- sidebar content end -->
+	    					<div class="spacer"></div>
+	    				</div>
+	    			</div>
+	    			<div id="main">
+	    				<div id="separator"></div>
+	    				<div class="clear"></div>
+	    				<div class="container">
+	    					<div id="auction-info">
+		    					<h1>SCC Library Index</h1>
+								<h2>AN ELECTRONIC PUBLICATION<br />
+									LISTING ARTICLES, BOOKS, REFERENCES and SERVICES AVAILABLE to SCC MEMBERS<br />
+									LAST INDEX UPDATE: 29 December 2003</h2>
+								<h2>THE SCC LIBRARY ELECTRONIC INDEX and THE POSTHORN (ISSN-0551;6897) are published by the Scandinavian Collectors Club. ©2000.</h2>
+								<h2>FOREWORD</h2>
+								<p>This electronic edition of the Library Index is dedicated to collectors who seek to advance their knowledge of Scandinavian philately. The authors of books and journal articles, plus the compilers of material on subjects of our interest, are to be commended. Without them there would be no SCC Library. It is extremely gratifying that so many members sent copies of their exhibits or collections. Slide shows also have helped to stimulate interest especially for chapter meetings. Please remember no accumulation of reference material is of any value unless it is used. (W.E. Melberg, SCC Librarian, 1987-1999.)</p>
+								<h2>LIBRARY RULES</h2>
+								<ol>
+									<li>Library use will be limited to SCC members in good standing. Please provide your SCC membership number with your request.</li>
+									<li>Borrowers are responsible for paying postage both to and from the SCC Library and for returning material in the same condition as received.</li>
+									<li>Items must be returned within 30 days unless prior arrangements are made.</li>
+									<li>Checks, cash or mint postage (USA) is acceptable to pay postal, photocopying, and handling charges.</li>
+									<li>Mailings to SCC members outside the USA require special arrangements and may incur additional cost.</li>
+								</ol>
+								<p>Our diverse membership reflects an interest in the countries of Åland, Aunus, the Danish West Indies, Denmark, the Faroes, Finland, Greenland, Iceland, Karelia, North Ingermanland, Norway, Slesvig, and Sweden. We are affiliated with with the American Philatelic Society, the Royal Philatelic Society of Canada, the Scandinavian Philatelic Foundation, and Norsk Filatelistforbund.</p>
+								<p>Requests for literature not found in the electronic index should include as much detail as possible. The volunteers who staff the Library will make a reasonable effort to fulfill such requests.</p>
+								<p>Inquiries should be addressed to:</p>
+								<p>Scandinavian Collectors Club Library<br />
+								c/o RMPL (Rocky Mountain Philatelic Library)<br />
+								2038 So. Pontiac Way<br />
+								Denver, CO 80224<br />
+								USA</p>
+								<p>Email: <a href="mailto:palbright@wiche.edu">palbright@wiche.edu</a></p>
+							</div>
+							<hr />
+	    					<div id="auction-list">
+								<h2>CONTENTS AND LINKS TO THE INDEX CHAPTERS</h2>
+								<div class="spacer10"></div>
+								<table id="hor-minimalist">
+						            <thead>
+						              <tr>
+						                <th scope="col">Subject</th>
+						                <th scope="col">Prefix</th>
+						                <th scope="col">Code</th>
+						              </tr>
+						            </thead>
+						            <tbody>
+						              <tr>
+						                <td><a href="#">Denmark (article)</a></td>
+						                <td>DEN</td>
+						                <td>A</td>
+						              </tr>
+						              <tr>
+						                <td><a href="#">Denmark (article)</a></td>
+						                <td>DEN</td>
+						                <td>A</td>
+						              </tr>
+						              <tr>
+						                <td><a href="#">Danish West Indies (article)</a></td>
+						                <td>DWI</td>
+						                <td>A</td>
+						              </tr>
+						              <tr>
+						                <td><a href="#">Danish West Indies (book)</a></td>
+						                <td>DWI</td>
+						                <td>B</td>
+						              </tr>
+						            </tbody>
+						          </table>
+							</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<!-- footer content start -->
+				<!--#include virtual="assets/templates/footer.html" -->
+				<!-- footer content end -->
+	</body>
+</html>

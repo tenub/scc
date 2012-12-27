@@ -24,7 +24,7 @@ a {
 	color: #fff;
 	text-decoration: none;
 	outline: 0;
-	font: 16px 'Trebuchet MS', helvetica, arial, sans-serif
+	font: 16px 'Trebuchet MS', helvetica, arial, sans-serif;
 }
 a:hover {
 	color: #fff;
@@ -266,8 +266,33 @@ header div.header {
 	padding: 0 0 0 14px;
 	margin: 0 -320px 0 0;
 }
+#main hr {
+	margin: 0 50px;
+	height: 0;
+	border: none;
+	border-bottom: 1px dashed #eb2200;
+}
+#main ol {
+	list-style: decimal;
+	padding-left: 1.5em;
+}
 #main .container {
 	margin: 0 320px 40px 0;
+}
+#main #auction-info {
+	margin: 42px 50px 30px 50px;
+}
+#main #auction-list {
+	margin: 30px 50px 0 50px;
+}
+#main #auction-info h2 {
+	margin: 10px 0;
+}
+#main #auction-info a {
+	color: #eb2200;
+}
+#main #auction-info a:hover {
+	color: #000;
 }
 #main .body {
 	margin: 0 50px;
@@ -339,6 +364,75 @@ header div.header {
 #sidebar #newsBrief ul li {
 	padding: 10px 0;
 	border-bottom: 1px solid #d5d0cd;
+}
+/* table styling */
+#hor-minimalist a, #hor-minimalist1 a, #hor-minimalist2 a {
+	font-size: 14px;
+	color: #eb2200;
+}
+#hor-minimalist, #hor-minimalist1, #hor-minimalist2 {
+	font-family: 'Trebuchet MS', helvetica, arial, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+}
+#hor-minimalist th+th, #hor-minimalist td+td {
+	text-align: center;
+	padding: 0 10px;
+}
+#hor-minimalist1 th+th, #hor-minimalist1 td+td, #hor-minimalist2 th+th, #hor-minimalist2 td+td {
+	text-align: left;
+	padding: 0 10px;
+}
+#hor-minimalist1 tbody.spanned td, #hor-minimalist2 tbody.spanned td {
+	padding: 0 10px;
+}
+#hor-minimalist1 tbody.spanned td.noPad, #hor-minimalist2 tbody.spanned td.noPad {
+	padding: 0 0;
+}
+#hor-minimalist th, #hor-minimalist1 th, #hor-minimalist2 th {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	padding: 10px 0;
+	border-bottom: 1px solid #999;
+    vertical-align: bottom;
+}
+#hor-minimalist td, #hor-minimalist1 td, #hor-minimalist2 td {
+	padding: 0 0;
+}
+#hor-minimalist tr, #hor-minimalist1 tr, #hor-minimalist2 tr {
+	border-bottom: 1px solid #ccc;
+	color: #666;
+}
+#hor-minimalist tr:hover {
+	background: #f4f4f4;
+}
+#hor-minimalist tr a {
+	display: block;
+	line-height: 3em;
+}
+#hor-minimalist2 tr:nth-child(even) {
+	border-bottom: 1px solid #ccc;
+	color: #666;
+}
+#hor-minimalist2 tr:nth-child(odd) {
+	border-bottom: 1px dashed #eee;
+	color: #666;
+}
+#hor-minimalist tbody tr.currentRate, #hor-minimalist1 tbody tr.currentRate, #hor-minimalist2 tbody tr.currentRate {
+    color: #d51d24;
+}
+#hor-minimalist tfoot td, #hor-minimalist1 tfoot td, #hor-minimalist2 tfoot td {
+    border: none;
+    padding: 10px 0 10px 0;
+    text-align: left;
+    color: #d51d24;
+}
+#hor-minimalist tfoot tr, #hor-minimalist1 tfoot tr, #hor-minimalist2 tfoot tr {
+    border: none;
 }
 /* Footer Styles */
 footer {
