@@ -197,9 +197,6 @@ header div.header {
 	border-bottom-right-radius: 10px;
 	-moz-border-radius-bottomleft: 10px;
 	border-bottom-left-radius: 10px;
-	-moz-box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
-	-webkit-box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
-	box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
 	z-index: 1000;
 	line-height: 1em;
 }
@@ -212,13 +209,14 @@ header div.header {
 	color: #fc0;
 }
 #mainMenu .menu > li {
-	width: 161px;
+	width: 173px;
 	height: 100%;
 	padding: 0;
-	margin-left: 35px;
+	margin-left: 20px;
+	list-style: none;
 }
 #mainMenu .menu > li:last-child {
-	width: 163px;
+	width: 174px;
 }
 #mainMenu .menu > li ul {
 	text-align: left;
